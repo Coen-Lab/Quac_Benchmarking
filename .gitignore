@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Bonsai environment: track only Bonsai.config, NuGet.config, Setup.cmd, Setup.ps1
+# (regenerate everything else with .bonsai/Setup.cmd)
+.bonsai/Packages/
+.bonsai/Settings/
+.bonsai/Bonsai.exe*
+*.bonsai.layout
+
